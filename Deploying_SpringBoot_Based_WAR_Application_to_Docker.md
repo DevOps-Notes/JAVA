@@ -15,5 +15,7 @@ rmdir /usr/local/tomcat/webapps && mv /usr/local/tomcat/webapps.dist /usr/local/
 
 # Upload war file, it will be automatically unzipped and started by Tomcat.
 docker cp D:\IdeaProjects\AzureMonitoringSuite\target\main-0.0.1-SNAPSHOT.war 35:/usr/local/tomcat/webapps
+
+# Visit http://127.0.0.1:8088/main-0.0.1-SNAPSHOT
 ```
 
